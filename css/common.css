@@ -1,0 +1,133 @@
+a{
+    color: #eee;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.section_2 ,.section_4, .footer_con_wrap{
+    padding: 160px 260px;
+    color: #1d1d1d;
+}
+
+.section_4, .section_3, .section_5{
+    background-color: #ffffff;
+}
+
+.section_5{
+    padding: 0 0 160px;
+}
+
+.con_wrap_3, .con_4_wrap, .con_4_title_wrap, .open_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con_wrap_2, .con_wrap_3, .con_wrap_4{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.br_mo, .mobile_title_4{
+    display: none;
+}
+
+.wrap .con_wrap{
+    text-align: center;
+}
+
+.con_wrap h2{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.con_wrap h3{
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 60px;
+}
+
+.con_wrap p{
+    font-size: 25px;
+    line-height: 37px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 450px){
+
+    .br_pc{
+        display: none;
+    }
+
+    .br_mo, .mobile_title_4{
+        display: block;
+    }
+
+    .wrap .con_wrap h2{
+        font-size: 30px;
+    }
+
+    .wrap .con_2_wrap{
+       display: block;
+        padding: 0;
+    }
+
+    .section_2, .section_3, .section_4, .section_5, .footer_con_wrap{
+        padding: 0 20px;
+    }
+
+    body .wrap .con_wrap h3{
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    
+    body .wrap .con_wrap p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .wrap .con_3:last-child, .wrap .con_2:last-child{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    
+    /* .wrap .con_wrap h3{
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .wrap .con_wrap p{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    } */
+
+    .con_wrap h2{
+        font-size: 55px;
+        margin-bottom: 40px;
+    }
+
+    .wrap .con_3:last-child, .wrap .con_2:last-child{
+        margin-top: 140px;
+    }
+
+    .br_pc{
+        display: none;
+    }
+
+    .wrap .con_wrap_3, .con_4_wrap, .con_4_title_wrap, .open_wrap{
+        display: block;
+    }
+
+    .section_3, .section_4, .section_5, .footer_con_wrap{
+        padding: 60px 20px;
+    }
+    
+}
